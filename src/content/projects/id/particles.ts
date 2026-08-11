@@ -10,7 +10,7 @@ export default {
   title: "WebGL Particles",
   theme: "dark",
   tags: ["ogl", "javascript", "glsl"],
-  live: "https://particles.david-hckh.com/",
+  live: "",
   videoBorder: false,
   description:
     "Proyek WebGL eksperimental yang dibangun dengan OGL.js, menganimasi partikel melalui rumus matematika dan fungsi noise.<br/><br/>Partikel bertransisi dengan mulus di antara beberapa bentuk 3D yang saling berpadu.",

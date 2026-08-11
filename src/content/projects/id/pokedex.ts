@@ -11,8 +11,8 @@ export default {
   title: "Pokédex",
   theme: "light",
   tags: ["javascript", "html", "css"],
-  live: "https://pokedex.david-hckh.com/",
-  source: "https://github.com/davidhckh/pokedex",
+  live: "",
+  source: "",
   videoBorder: true,
   description:
     "Salah satu proyek web pertama saya untuk melatih konsep dasar pengembangan web. Pokédex ini beropsi open source.<br/><br/>Aplikasi ini berinteraksi dengan API publik untuk mengambil data secara asinkron.",

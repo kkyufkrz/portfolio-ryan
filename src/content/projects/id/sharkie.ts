@@ -12,8 +12,8 @@ export default {
   title: "Sharkie",
   theme: "light",
   tags: ["javascript", "html", "css"],
-  live: "https://sharkie.david-hckh.com/",
-  source: "https://github.com/davidhckh/sharkie-game",
+  live: "",
+  source: "",
   description:
     "Sharkie adalah game petualangan 2D bawah air yang dibangun dengan vanilla JavaScript dan HTML5 Canvas.<br/><br/>Proyek ini menggunakan prinsip pemrograman berorientasi objek (OOP) dengan kelas khusus untuk entitas, musuh, animasi halus, dan latar belakang paralaks berlapis.",
   components: [
