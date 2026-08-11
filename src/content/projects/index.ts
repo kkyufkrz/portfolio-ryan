@@ -1,6 +1,7 @@
 import type { Locale } from "../../i18n/types";
 
 export const projectIds = [
+  "tiketcom",
   "pegipegi",
   "kartafarm",
   "blibli",
