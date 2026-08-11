@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Tintify",
-  theme: "light",
+  theme: "dark",
   tags: ["ui/ux", "graphic"],
   live: "https://www.behance.net/gallery/168493501/Tintify-Personal-colour-assistant-app",
   videoBorder: false,

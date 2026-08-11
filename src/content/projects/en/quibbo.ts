@@ -11,7 +11,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Quibbo",
-  theme: "light",
+  theme: "dark",
   tags: ["three", "node", "kubernetes", "redis", "postgresql"],
   videoBorder: true,
   description:

@@ -9,7 +9,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Pokédex",
-  theme: "light",
+  theme: "dark",
   tags: ["javascript", "html", "css"],
   live: "",
   source: "",

@@ -10,7 +10,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Sharkie",
-  theme: "light",
+  theme: "dark",
   tags: ["javascript", "html", "css"],
   live: "",
   source: "",

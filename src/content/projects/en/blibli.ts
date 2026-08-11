@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Blibli",
-  theme: "light",
+  theme: "dark",
   tags: ["campaign", "social", "graphic"],
   live: "https://www.behance.net/gallery/186792415/Blibli-Design-portfolio",
   videoBorder: false,

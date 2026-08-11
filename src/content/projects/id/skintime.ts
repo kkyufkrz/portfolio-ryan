@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Skintime",
-  theme: "light",
+  theme: "dark",
   tags: ["packaging", "branding"],
   live: "https://www.behance.net/gallery/148574361/SKINTIME",
   videoBorder: false,

@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Kasih Makan",
-  theme: "light",
+  theme: "dark",
   tags: ["campaign", "graphic", "social"],
   live: "https://www.behance.net/gallery/148571683/Kasih-Makan",
   videoBorder: false,

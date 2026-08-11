@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Nusaquatic",
-  theme: "light",
+  theme: "dark",
   tags: ["branding","graphic","identity"],
   
   videoBorder: false,

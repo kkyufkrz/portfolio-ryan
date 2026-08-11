@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Kartafarm",
-  theme: "light",
+  theme: "dark",
   tags: ["branding", "ui/ux", "graphic"],
   live: "https://www.behance.net/gallery/169919311/Kartafram-brandbook-guidelines",
   videoBorder: false,

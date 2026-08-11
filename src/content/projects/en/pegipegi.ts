@@ -2,7 +2,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Pegipegi",
-  theme: "light",
+  theme: "dark",
   tags: ["ui/ux", "campaign", "branding"],
   live: "https://www.behance.net/gallery/186826035/Pegipegi",
   videoBorder: false,

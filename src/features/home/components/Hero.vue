@@ -27,6 +27,7 @@ import AppearingText from "../../../components/AppearingText.vue";
   display: flex;
   position: relative;
   overflow: hidden;
+  color: #2d2a24; /* Force light mode color */
 
   &-content {
     align-items: center;

@@ -12,13 +12,14 @@
   --color-beige-400: #f5efe6;
 
   --color-background-400: #f5efe6;
+  --color-background-300: #ffffff;
 
   --color-black-400: #2d2a24;
 
   --color-gray-500: #67727c;
   --color-gray-400: #a9b0b7;
 
-  --color-orange-400: #ff8400;
+  --color-orange-400: #008dff;
 
   --color-white-400: #ffffff;
 
@@ -34,4 +35,20 @@
 
   --color-hologram-top: rgb(0, 53, 133);
   --color-hologram-bottom: rgba(0, 82, 145, 0.6);
+}
+
+:root[data-theme='dark'] {
+  --color-text-400: #ffffff;
+  --color-text-300: #d1d5db;
+
+  --color-grayscale-500: #374151;
+  --color-grayscale-400: #4b5563;
+
+  --color-beige-700: #111827;
+  --color-beige-600: #1f2937;
+  --color-beige-500: #374151;
+  --color-beige-400: #141414;
+
+  --color-background-400: #090909;
+  --color-background-300: #141414;
 }

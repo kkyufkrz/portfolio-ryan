@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Miracle Academy",
-  theme: "light",
+  theme: "dark",
   tags: ["education", "graphic", "branding"],
   live: "https://www.behance.net/gallery/186831049/Miracle-Gates-Academy",
   videoBorder: false,

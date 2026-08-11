@@ -14,11 +14,13 @@ import { useScroll } from "./composables/useScroll";
 import { projectVisible } from "./composables/useRouteObserver";
 import ProjectBackground from "./features/projects/components/ProjectBackground.vue";
 import { useClickSound } from "./features/sounds/composables/useClickSounds";
-//import { useHoverSound } from "./features/sounds/composables/useHoverSounds";
+import { useGlobalTheme } from "./composables/useGlobalTheme";
 
 const { isTransitioning } = useProjectTransition();
+const { initTheme } = useGlobalTheme();
 
 useTranslations();
+initTheme();
 usePreloader();
 useMusic();
 useHowler();

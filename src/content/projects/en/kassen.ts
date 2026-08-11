@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Kassen",
-  theme: "light",
+  theme: "dark",
   tags: ["illustration","branding"],
   
   videoBorder: false,

@@ -66,6 +66,7 @@ onUnmounted(() => {
     font-weight: 900;
     letter-spacing: 0.02em;
     font-size: var(--font-size-title-md);
+    color: #2d2a24; /* Force light mode color */
 
     @include mixins.mq("sm") {
       font-size: var(--font-size-title-lg);

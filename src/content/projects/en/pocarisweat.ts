@@ -3,7 +3,7 @@ import type { ProjectContent } from "../../types";
 
 export default {
   title: "Pocari Sweat - Bintang SMA",
-  theme: "light",
+  theme: "dark",
   tags: ["campaign", "branding"],
   live: "https://www.behance.net/gallery/186837921/Pocari-Sweat-Bintang-SMA",
   videoBorder: false,

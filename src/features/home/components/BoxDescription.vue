@@ -223,6 +223,7 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
     border: var(--stroke-sm) solid var(--color-cyan-400);
     border-radius: var(--radius-md);
     background: linear-gradient(to bottom, var(--color-hologram-top) 0%, var(--color-hologram-bottom) 100%);
+    color: var(--color-white-400);
 
     @include mixins.landscape {
       padding: var(--space-xs) var(--space-sm);
