@@ -1,22 +1,4 @@
-<<<<<<< HEAD
-import thumbnailPegipegi from "../../../assets/thumbnails/pegipegi.webp";
-import thumbnailKartafarm from "../../../assets/thumbnails/kartafarm.webp";
-import thumbnailBlibli from "../../../assets/thumbnails/blibli.webp";
-import thumbnailVidiosports from "../../../assets/thumbnails/vidiosports.webp";
-import thumbnailDailykeeb from "../../../assets/thumbnails/dailykeeb.webp";
-import thumbnailTintify from "../../../assets/thumbnails/tintify.webp";
-import thumbnailEmtekdigital from "../../../assets/thumbnails/emtekdigital.webp";
-import thumbnailSkintime from "../../../assets/thumbnails/skintime.webp";
-import thumbnailNusaquatic from "../../../assets/thumbnails/nusaquatic.webp";
-import thumbnailBaksobadminton from "../../../assets/thumbnails/baksobadminton.webp";
-import thumbnailKassen from "../../../assets/thumbnails/kassen.webp";
-import thumbnailPocarisweat from "../../../assets/thumbnails/pocarisweat.webp";
-import thumbnailMiracleacademy from "../../../assets/thumbnails/miracleacademy.webp";
-import thumbnailKanigara from "../../../assets/thumbnails/kanigara.webp";
-import thumbnailPandemicmotion from "../../../assets/thumbnails/pandemicmotion.webp";
-import thumbnailKasihmakan from "../../../assets/thumbnails/kasihmakan.webp";
-=======
-import thumbnailPegipegi from "../../../assets/images/projects/pegipegi/pegipegi-0.webp";
+﻿import thumbnailPegipegi from "../../../assets/images/projects/pegipegi/pegipegi-0.webp";
 import thumbnailKartafarm from "../../../assets/images/projects/kartafarm/kartafarm-0.webp";
 import thumbnailBlibli from "../../../assets/images/projects/blibli/blibli-0.webp";
 import thumbnailVidiosports from "../../../assets/images/projects/vidiosports/vidiosports-0.webp";
@@ -32,7 +14,6 @@ import thumbnailMiracleacademy from "../../../assets/images/projects/miracleacad
 import thumbnailKanigara from "../../../assets/images/projects/kanigara/kanigara-0.webp";
 import thumbnailPandemicmotion from "../../../assets/images/projects/pandemicmotion/pandemicmotion-0.webp";
 import thumbnailKasihmakan from "../../../assets/images/projects/kasihmakan/kasihmakan-0.webp";
->>>>>>> b6d6278 (fixing bugs)
 
 import type { ProjectPreview } from "../../types";
 

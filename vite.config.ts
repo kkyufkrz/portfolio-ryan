@@ -13,11 +13,7 @@ export default defineConfig({
   ],
   server: {
     port: 3000,
-<<<<<<< HEAD
-    strictPort: true,
-=======
     strictPort: false,
->>>>>>> b6d6278 (fixing bugs)
     host: true,
   },
   resolve: {
