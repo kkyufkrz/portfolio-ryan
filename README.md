@@ -1,43 +1,56 @@
-# Portfolio (2025)
+> An interactive personal portfolio showcasing projects, case studies, and creative web experiments.
 
-Personal portfolio site: project case studies, lightweight 3D and shader demos, bilingual copy (English and German).
+## Project Overview
 
-Built with **Vue 3**, **TypeScript**, and **Vite**. Motion via **GSAP** and **Lenis**, 3D via **three.js**, audio via **Howler**. GLSL is compiled through **vite-plugin-glsl**.
+A modern personal portfolio website built to showcase selected projects, technical work, and creative experiments. The website combines a clean portfolio interface with interactive experiences such as smooth animations, lightweight 3D scenes, WebGL shaders, and audio interactions.
 
-## Scripts
+The portfolio also supports **English and German**, allowing project content and information to be presented in multiple languages.
 
-| Command             | Description                                 |
-| ------------------- | ------------------------------------------- |
-| `npm run dev`       | Dev server on port **3000** (`strictPort`)  |
-| `npm run build`     | `vue-tsc` then production bundle to `dist/` |
-| `npm run preview`   | Serve the production build locally          |
-| `npm run typecheck` | Typecheck only (`vue-tsc -b`)               |
+## What's Inside
 
-## Content
+- **Project Showcase**  
+  Selected projects presented through dedicated case studies with descriptions, technologies, tags, media, and relevant links.
 
-- **Projects**: `src/content/projects/{en,de}/<slug>.ts` — copy, tags, media, links. Slugs must align with `projectIds` in `src/content/projects/index.ts`.
-- **Previews / listing**: `src/content/projects/previews/`.
-- **Tags**: variants and labels live in `src/components/tagVariants.ts` (used by `Tag.vue` and content types).
+- **Interactive 3D Experiences**  
+  Lightweight 3D elements and visual experiments powered by Three.js.
 
-## Stack (high level)
+- **WebGL & GLSL Experiments**  
+  Custom shader effects and creative visual experiments using GLSL.
 
-- Vue 3 (`<script setup>`), SCSS with shared mixins (`src/assets/styles/`)
-- i18n helpers under `src/i18n/`
-- WebGL / GLSL under `src/three/` where applicable
+- **Animations & Smooth Scrolling**  
+  Interactive transitions, motion effects, and smooth scrolling for a dynamic browsing experience.
 
-## Credits & Attribution
+- **Bilingual Content**  
+  Portfolio content is available in **English and German**.
 
-This project was created and designed by Ryan Martin Wijaya.
+- **Project Previews**  
+  Visual previews and highlights that provide an overview of featured projects.
 
-If you use this project or substantial parts of its source code as a base for your own portfolio or work, attribution must be preserved.
+## Tech Stack
 
-Please keep:
+- Vue 3
+- TypeScript
+- Vite
+- SCSS
+- GSAP
+- Lenis
+- Three.js
+- Howler.js
+- GLSL
 
-- existing credit comments in the source code
-- this attribution section in the README
-- a visible reference to the original project/repository in derivative works
+## Project Structure
 
-Original portfolio:
--> https://ryanmartinwijaya.com
+```text
+src/
+├── content/
+│   └── projects/      # Project information and case studies
+├── components/        # Reusable UI components
+├── i18n/              # Localization
+├── three/             # 3D and WebGL experiences
+└── assets/
+    └── styles/        # Global styles and shared SCSS
+```
 
-Commercial reuse or redistribution of substantial portions of this project without permission is prohibited.
+## Purpose
+
+This portfolio is designed as a combination of personal branding, project presentation, and interactive web experimentation, bringing together frontend development, animation, 3D, WebGL, and creative coding in a single experience.
